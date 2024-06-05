@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/21" xmlns:fx="http://javafx.com/fxml/1" fx:controller="org.example.week5.controller">
+   <children>
+      <Button fx:id="showname" layoutX="273.0" layoutY="187.0" mnemonicParsing="false" onAction="#connectBtn" text="Button" />
+      <Label fx:id="age" layoutX="285.0" layoutY="142.0" text="age" />
+      <Label fx:id="name" layoutX="285.0" layoutY="113.0" text="name" />
+      <Label fx:id="Id" layoutX="285.0" layoutY="82.0" text="Id" />
+   </children>
+</AnchorPane>
